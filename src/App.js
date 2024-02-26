@@ -3,6 +3,7 @@ import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Create from "./Create";
 import Table from './Table';
 import Analysis from './Analysis';
+import axios from 'axios';
 axios.defaults.baseURL = "https://197f-51-20-85-206.ngrok-free.app/";
 axios.defaults.headers = {
   "Content-Type": "application/json",
