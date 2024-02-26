@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Lobster&family=Poppins:wght@400;500&display=swap');
+
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin:0;
+  padding:0;
+
+}
+body {
+  background-image: url('https://img.freepik.com/free-photo/flat-lay-clean-office-desk_23-2148219267.jpg?w=1380&t=st=1708914812~exp=1708915412~hmac=8f4c3cb7b4f1a14b13534442ae3ba057b38a0c1a6a9c3ae5b8b315a5e012b23e');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading {
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+
+.form {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  width: 80%;
+}
+.form div{
+  width: 22rem;
+}
+
+.container {
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 1rem; 
+  margin-top: 2rem; 
+  margin:auto;
+  border-radius:4rem;
+
+}
+
+
+input,
+select {
+  margin-bottom: 1rem; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  outline: none;
+  border-color: #aaa;
+  
+}
+
+
+label {
+  margin-bottom: 5px;
+  display: block;
+}
+input[type="date"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%; 
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator { 
+  cursor: pointer;
+  padding: 4px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="email"]:focus,
+select:focus {
+  outline: none;
+  border-color: #aaa;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+button{
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius:0.5rem;
+  outline: none;
+  border:1px solid blue;
+  color:blue;
+  box-shadow: 0 0 5px rgba(9, 139, 232, 0.84);
+  background-color: white;
+  margin-left: 5px;
+
+}
+
+
+
+.container button{
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius:0.5rem;
+  outline: none;
+  border:1px solid blue;
+  color:blue;
+  box-shadow: 0 0 5px rgba(9, 139, 232, 0.84);
+  background-color: white;
+}
+
+
+.show button{
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius:0.5rem;
+  outline: none;
+  border:1px solid blue;
+  color:blue;
+  box-shadow: 0 0 5px rgba(9, 139, 232, 0.84);
+  background-color: white;
+  text-align: center;
+  margin:auto;
+  margin:8px;
+  margin-top:2rem ;
+  margin-bottom: 2rem;
+  
+}
+
+
+table{
+  width:100%;
+  border-collapse: collapse;
+  
+}
+
+table thead{
+  background:grey;
+  color:white;
+  border:1px solid white;
+}
+
+table thead tr th{
+  font-size:0.9rem;
+  padding: 0.8rem;
+  letter-spacing: 0.2rem;
+  vertical-align: top;
+  border:1px solid grey;
+
+}
+table td{
+  font-size:1 rem;
+  letter-spacing: 0.2rem;
+  font-weight:normal;
+  text-align:center;
+  border:1px solid grey;
+  background-color: white;
+
+}
+.table {
+  max-width: 90%;
+  max-height: 50rem;
+  margin: 30px auto;
+  border-radius:10px;
+  background-color: grey;
+  padding-bottom: 2rem;
+}
+
+.table thead {
+  position: sticky;
+  top: 0; 
+  
+}
+
+.table::-webkit-scrollbar {
+  width: 12px; 
+}
+.table::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+.table::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 6px; 
+}
+.show{
+  position: absolute;
+  right:10rem;
+  top:3rem;
+}
+td{
+  padding: 10px;
+}
+
+.info{
+  background-color: white;
+  border :1px solid greenyellow;
+  font-size: 15px;
+  margin:5px auto;
+  width:70%;
+  border-radius:4rem;
+  font-weight:900;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px ;
+  margin-bottom: 3rem;
+
+}
+.pagination {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.page-item {
+  margin-right: 0.5rem;
+}
+
+.page-link {
+  color: black;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.page-link:hover {
+  background-color: white;
+  color: black;
+}
+
+.active .page-link {
+  background-color: white;
+  color: black;
+}
+
+.search{
+  display: flex;
+  margin: 0 4rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.total{
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+
+}
+.total span{
+  margin-left:0.5rem;
+  color:blue;
+
+}
+.search-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.search-box input{
+  margin: 0;
+}
+.loading{
+  margin: 5rem auto;
+}
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.radio-group label {
+  margin-bottom: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 0.5rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  outline: none;
+  border-color: #aaa;
+}
+
+.radio-group input[type="radio"]:focus {
+  outline: none;
+  border-color: #aaa;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.label-radio{
+  display: inline-block;
+  margin:0;
+}
+
+input[type="radio" i]{
+  margin-right: 30px;
+  margin-left:20px;
+  border:none;
+  box-shadow: none;
+
+}
+.analysis{
+  max-width:500px;
+  margin:3rem auto;
+  max-height: 800px;
+  padding: 3rem 5rem;
+  background-color: white;
+  border-radius: 10px;
+}
+
+
+.nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.nav nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+}
+
+.nav ul li {
+  margin-right: 20px;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  text-decoration: underline;
+}
