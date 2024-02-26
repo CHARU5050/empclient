@@ -22,7 +22,7 @@ const Table = () => {
 
   const getemployee = () => {
     axios
-      .get("http://localhost:3001/employee")
+      .get("/employee")
       .then((response) => {
         let filteredemployee = response.data;
         if (search) {

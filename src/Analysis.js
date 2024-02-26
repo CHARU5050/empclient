@@ -14,7 +14,7 @@ function Analysis() {
 
   const getAnalysis = () => {
     axios
-      .get("http://localhost:3001/analysis")
+      .get("/analysis")
       .then((response) => {
         setData(response.data);
       })

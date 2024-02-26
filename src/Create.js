@@ -21,7 +21,7 @@ function Create() {
   
   const addemployee=()=>{
     console.log("hello");
-    axios.post("http://localhost:3001/create",{
+    axios.post("/create",{
       name:name,
       empid:empid,
       date:date,
